@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Profile Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span>⌘</span>
+            GitHub Explorer
+        </div>
+
+        <button class="theme-btn">🌙</button>
+    </header>
+
+
+    <!-- Main Container -->
+    <main class="container">
+
+        <!-- Search Section -->
+        <section class="search-section">
+
+            <h1>GitHub Profile Explorer</h1>
+
+            <p>
+                Search any GitHub username and explore their profile,
+                repositories and activity.
+            </p>
+
+            <div class="search-box">
+                <input
+                    id="search-bar"
+                    type="text"
+                    placeholder="Enter GitHub username..."
+                >
+
+                <button>
+                    Search
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- Profile Card -->
+        <section class="profile-card">
+
+            <div class="profile-top">
+
+                <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub Profile"
+                    class="avatar"
+                >
+
+                <div class="profile-info">
+
+                    <h2 class="name">GitHub User</h2>
+
+                    <p class="username">@username</p>
+
+                    <p class="bio">
+                        A passionate developer who loves building
+                        amazing projects.
+                    </p>
+
+                    <div class="profile-details">
+
+                        <span class="location">📍 India</span>
+
+                        <span class="company">🏢 Developer</span>
+
+                        <a class="profile-link" href="">🔗 github.com/username <a/>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Statistics -->
+            <div class="stats">
+
+                <div class="stat">
+                    <h3 class="repo">120</h3>
+                    <p>Repositories</p>
+                </div>
+
+                <div class="stat">
+                    <h3 class="followers">1.2K</h3>
+                    <p>Followers</p>
+                </div>
+
+                <div class="stat">
+                    <h3 class="following">250</h3>
+                    <p>Following</p>
+                </div>
+
+                <div class="stat">
+                    <h3>5.8K</h3>
+                    <p>Stars</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Repository Section -->
+        <section class="repositories">
+
+            <div class="section-heading">
+                <h2>Repositories</h2>
+
+                <span class="repo">120 repositories</span>
+            </div>
+
+
+            <div class="repo-grid">
+
+                <!-- Repository 1 -->
+                <div class="repo-card">
+
+                    <div class="repo-title">
+                        <h3>awesome-project</h3>
+
+                        <span class="public">
+                            Public
+                        </span>
+                    </div>
+
+                    <p>
+                        A modern web development project built
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="repo-info">
+
+                        <span>
+                            🟡 JavaScript
+                        </span>
+
+                        <span>
+                            ⭐ 245
+                        </span>
+
+                        <span>
+                            🍴 32
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Repository 2 -->
+                <div class="repo-card">
+
+                    <div class="repo-title">
+
+                        <h3>portfolio</h3>
+
+                        <span class="public">
+                            Public
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Personal portfolio website showcasing
+                        projects and skills.
+                    </p>
+
+                    <div class="repo-info">
+
+                        <span>
+                            🔵 HTML
+                        </span>
+
+                        <span>
+                            ⭐ 98
+                        </span>
+
+                        <span>
+                            🍴 15
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Repository 3 -->
+                <div class="repo-card">
+
+                    <div class="repo-title">
+
+                        <h3>java-dsa</h3>
+
+                        <span class="public">
+                            Public
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Data Structures and Algorithms problems
+                        solved using Java.
+                    </p>
+
+                    <div class="repo-info">
+
+                        <span>
+                            🟠 Java
+                        </span>
+
+                        <span>
+                            ⭐ 156
+                        </span>
+
+                        <span>
+                            🍴 21
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Repository 4 -->
+                <div class="repo-card">
+
+                    <div class="repo-title">
+
+                        <h3>calculator</h3>
+
+                        <span class="public">
+                            Public
+                        </span>
+
+                    </div>
+
+                    <p>
+                        A responsive calculator built with
+                        vanilla JavaScript.
+                    </p>
+
+                    <div class="repo-info">
+
+                        <span>
+                            🟡 JavaScript
+                        </span>
+
+                        <span>
+                            ⭐ 76
+                        </span>
+
+                        <span>
+                            🍴 8
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            GitHub Profile Explorer • Built with HTML & CSS
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
